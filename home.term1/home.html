@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Of Science And Technology</title>
+    <link rel="icon" href="/Mainphoto/photo/download.jpg">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+        }
+        .container{
+            /* position: fixed; */
+            top: 0;
+            right: 0;
+            left: 0;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 7%;
+            background-color: beige;
+            box-shadow: 2px 3px 2px black;
+        }
+        .logo{
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 20px;
+            color: black;
+        }
+        .logo, .navbar{
+            height: 100%;
+        }
+        .navbar ul li{
+            position: relative;
+            float:left;  
+        }
+        .navbar ul li{
+            list-style: none;
+        }
+        .navbar ul li a{
+            font-size: 20px;
+            padding: 20px;
+            color: black;
+            height: 100%;
+            display: block;
+        }
+        .navbar ul li a:hover{
+            background-color: blue;
+            color: white;
+        }
+        .navbar ul li ul {
+            left: 0;
+            width: 210px;
+            background-color: wheat;
+            color: black;
+            position: absolute;
+            display: none;
+        }
+        .navbar ul li ul li{
+            width: 100%;
+        }
+        .navbar ul li ul li ul{
+            top: 0;
+            left: 210px;
+        }
+        .navbar ul li:focus-within>ul,
+        .navbar ul li:hover>ul {
+            display: initial;
+        }
+        .find{
+          display: grid;
+          gap: 10px;
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .find img{
+            width: 100%;
+            aspect-ratio: 1;
+        }
+        marquee img{
+            width: 70px;
+            aspect-ratio: 2/1;
+        }
+        marquee{
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            height: 50px;
+            color: white;
+            background-color: lightskyblue;
+        }
+        footer{
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            background-color: lightskyblue;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-photo">
+        <img src="/Mainphoto/photo/header of homework 4.jpg" alt="header" width="100%">
+    </div>
+    <div class="container">
+        <a href="#" class="logo">Logo</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/home.html">home</a></li>
+                <li><a href="/news.html">news</a></li>
+                <li><a href="facult.html">faculty member</a></li>
+                <li><a href="programs.html">programs +</a>
+                    <ul>
+                        <li><a href="Lab2.html">Information Technology</a></li>
+                        <li><a href="Lab3.html">computer Science +</a>
+                            <ul>
+                                <li><a href="never.html">Electronic</a></li>
+                                <li><a href="home.html">Telecommunication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Lab2.html">computer labs +</a>
+                    <ul>
+                        <li><a href="/Lab2.html">Maltimedia Labs</a></li>
+                        <li><a href="/Lab2.html">E-Learning Labs</a></li>
+                        <li><a href="/programs.html">Networking Labs</a></li>
+                        <li><a href="/never.html">IT Center Labs</a></li>
+                    </ul>
+                
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <br>
+        <div>
+            <p>មហាវិទ្យាល័យវិទ្យាសាស្រ្ត និងបច្ចេកវិទ្យា នៃសកលវិទ្យាល័យមក្ពុជា។ សម្រាប់ប្អូនដែលចង់បន្តការសិក្សា​ថ្នាក់បរិញ្ញាបត្ររង ឬថ្នាក់បរិញ្ញាបត្រ។​ សូមចុះឈ្មោះជាមួយយើងខ្ញុំ​តាមរយៈអនឡាញ ឬទៅកាន់ សកលវិទ្យាល័យកម្ពុជាដោយផ្ទាល់ក៏បាន៕</p>
+            <p>Welcome to the college of science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degree of the study programms, please register now on visit the compus of The Univesity of Cambodia.</p>
+        </div>
+        <br>
+        <div  class="find">
+            <img src="/Mainphoto/photo/all student learning.jpg" alt="">
+            <img src="/Mainphoto/photo/students reward.jpg" alt="">
+            <img src="/Mainphoto/photo/playing computer.jpg" alt="">
+        </div>
+        <div class="action">
+            <marquee behavior="scroll" direction="right" scrollamount="6"><img src="/Mainphoto/photo/cots.jpg" alt="">
+            welcome to college of science and technology</marquee>
+        </div>
+        <div class="find">
+            <img src="/Mainphoto/photo/computer.jpg" alt="">
+            <img src="/Mainphoto/photo/taking photo.jpg" alt="">
+            <img src="/Mainphoto/photo/class computer.jpg" alt="">
+        </div>
+        <footer><i>Copyright © The university of Cambodia.</i></footer>
+</body>
+</html>

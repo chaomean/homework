@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>College CoST</title>
+     <style>
+         *{
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+        }
+        .container{
+            /* position: fixed; */
+            top: 0;
+            right: 0;
+            left: 0;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 7%;
+            background-color: beige;
+            box-shadow: 2px 3px 2px black;
+        }
+        .logo{
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 20px;
+            color: black;
+        }
+        .logo, .navbar{
+            height: 100%;
+        }
+        .navbar ul li{
+            position: relative;
+            float:left;  
+        }
+        .navbar ul li{
+            list-style: none;
+        }
+        .navbar ul li a{
+            font-size: 20px;
+            padding: 20px;
+            color: black;
+            height: 100%;
+            display: block;
+        }
+        .navbar ul li a:hover{
+            background-color: blue;
+            color: white;
+        }
+        .navbar ul li ul {
+            left: 0;
+            width: 210px;
+            background-color: wheat;
+            color: black;
+            position: absolute;
+            display: none;
+        }
+        .navbar ul li ul li{
+            width: 100%;
+        }
+        .navbar ul li ul li ul{
+            top: 0;
+            left: 210px;
+        }
+        .navbar ul li:focus-within>ul,
+        .navbar ul li:hover>ul {
+            display: initial;
+        }
+     </style>
+</head>
+<body>
+    <div class="header-photo">
+        <img src="/Mainphoto/photo/header of homework 4.jpg" alt="header" width="100%">
+    </div>
+    <div class="container">
+        <a href="#" class="logo">Logo</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/home.html">home</a></li>
+                <li><a href="/news.html">news</a></li>
+                <li><a href="facult.html">faculty member</a></li>
+                <li><a href="programs.html">programs +</a>
+                    <ul>
+                        <li><a href="Lab2.html">Information Technology</a></li>
+                        <li><a href="Lab3.html">computer Science +</a>
+                            <ul>
+                                <li><a href="never.html">Electronic</a></li>
+                                <li><a href="home.html">Telecommunication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Lab2.html">computer labs +</a>
+                    <ul>
+                        <li><a href="/Lab2.html">Maltimedia Labs</a></li>
+                        <li><a href="/Lab2.html">E-Learning Labs</a></li>
+                        <li><a href="/programs.html">Networking Labs</a></li>
+                        <li><a href="/never.html">IT Center Labs</a></li>
+                    </ul>
+                
+                </li>
+            </ul>
+        </nav>
+    </div>
+<p>
+Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia.
+</p>
+<img src="5.jpg" alt="Assigment 4" style="width:600px;height:400px;">
+<h2 style="color:white;background-color:darkblue;"> College of Science and Technology Computer Labs </h2>
+<table border="1" bordercolor="red" bgcolor="lightgrey">
+        <caption>Computer Labs University of Cambodia</caption>
+        <tr>
+            <th>Multimedia Lab</th>
+            <th>E-learning Lab</th>
+            <th>Networking Lab</th>
+			<th>IT-Center Lab</th>
+        </tr>
+        <tr>
+            <td rowspan="1">Graphic Design</td>
+            <td>Graphic Design</td>
+            <td>Networking Design</td>
+			<td>Computer Applications</td>
+        </tr>
+        <tr>
+            <td>Computer Applications</td>
+            <td>Produce Videos Contents</td>
+        </tr>
+        <tr>
+            <td colspan="1">Mobile Applications</td>
+        </tr>
+</body>
+</html>
